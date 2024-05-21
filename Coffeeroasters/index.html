@@ -7,8 +7,10 @@
         <meta name="keywords" content="Coffee, Roasters, Coffee Roasters" />
         <meta name="author" content="Coffee Roasters" />
         <meta name="robots" content="index, follow" />
-        <!-- <link rel="stylesheet" href="./Css/normalize.css" /> -->
-        <link rel="stylesheet" href="./Css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./Css/normalize.css" />
+        <link rel="stylesheet" href="./Css/minifire.css" />
+        <!-- <link rel="stylesheet" href="./Css/style.css" /> -->
         <title>Coffee Roasters</title>
     </head>
     <body>
@@ -33,11 +35,18 @@
         <main>
             <!-- Home Section Start -->
             <section id="home" class="container home-section">
-                <h1>Great coffee made simple.</h1>
-                <p>Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
-                <button class="btn">
-                    <a href="#">Create your plan</a>
-                </button>
+                <div class="home-content">
+                    <h1>Great coffee made simple.</h1>
+                    <p>
+                        Start your mornings with the world’s best coffees. Try
+                        our expertly curated artisan coffees from our best
+                        roasters delivered directly to your door, at your
+                        schedule.
+                    </p>
+                    <button class="btn">
+                        <a href="#">Create your plan</a>
+                    </button>
+                </div>
             </section>
             <!-- Home Section End -->
 
@@ -47,46 +56,189 @@
                 <div class="collection-wrapper">
                     <div class="collection-card">
                         <div class="collection-card__img">
-                            <img src="./Imgs/collection-first__img.svg" alt="collection-first__img">
+                            <img
+                                src="./Imgs/collection-first__img.svg"
+                                alt="collection-first__img"
+                            />
                         </div>
                         <div class="collection-card__content">
                             <h2>Gran Espresso</h2>
-                            <p>Light and flavorful blend with cocoa and black pepper for an intense experience</p>
+                            <p>
+                                Light and flavorful blend with cocoa and black
+                                pepper for an intense experience
+                            </p>
                         </div>
                     </div>
                     <div class="collection-card">
                         <div class="collection-card__img">
-                            <img src="./Imgs/collection-second.svg" alt="collection-second">
+                            <img
+                                src="./Imgs/collection-second.svg"
+                                alt="collection-second"
+                            />
                         </div>
                         <div class="collection-card__content">
                             <h2>Planalto</h2>
-                            <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
+                            <p>
+                                Brazilian dark roast with rich and velvety body,
+                                and hints of fruits and nuts
+                            </p>
                         </div>
                     </div>
                     <div class="collection-card">
                         <div class="collection-card__img">
-                            <img src="./Imgs/collection-third.svg" alt="collection-third">
+                            <img
+                                src="./Imgs/collection-third.svg"
+                                alt="collection-third"
+                            />
                         </div>
                         <div class="collection-card__content">
                             <h2>Piccollo</h2>
-                            <p>Mild and smooth blend featuring notes of toasted almond and dried cherry</p>
+                            <p>
+                                Mild and smooth blend featuring notes of toasted
+                                almond and dried cherry
+                            </p>
                         </div>
                     </div>
                     <div class="collection-card">
                         <div class="collection-card__img">
-                            <img src="./Imgs/collection-fourth.svg" alt="collection-fourth">
+                            <img
+                                src="./Imgs/collection-fourth.svg"
+                                alt="collection-fourth"
+                            />
                         </div>
                         <div class="collection-card__content">
                             <h2>Danche</h2>
-                            <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes</p>
+                            <p>
+                                Ethiopian hand-harvested blend densely packed
+                                with vibrant fruit notes
+                            </p>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- Collection Section End -->
+
+            <!-- Question Section Start-->
+            <section id="question" class="container question-section">
+                <div class="question-wrapper">
+                    <h3>Why choose us?</h3>
+                    <p>
+                        A large part of our role is choosing which particular
+                        coffees will be featured in our range. This means
+                        working closely with the best coffee growers to give you
+                        a more impactful experience on every level.
+                    </p>
+                    <div class="question-card-wrapper">
+                        <div class="question-card">
+                            <img
+                                src="./Imgs/coffee-bean.svg"
+                                alt="coffee-bean"
+                            />
+                            <h4>Best quality</h4>
+                            <p>
+                                Discover an endless variety of the world’s best
+                                artisan coffee from each of our roasters.
+                            </p>
+                        </div>
+                        <div class="question-card">
+                            <img
+                                src="./Imgs/Combined Shape.svg"
+                                alt="combined shape"
+                            />
+                            <h4>Exclusive benefits</h4>
+                            <p>
+                                Special offers and swag when you subscribe,
+                                including 30% off your first shipment.
+                            </p>
+                        </div>
+                        <div class="question-card">
+                            <img
+                                src="./Imgs/coffee-bean.svg"
+                                alt="combined shape"
+                            />
+                            <h4>Exclusive benefits</h4>
+                            <p>
+                                Special offers and swag when you subscribe,
+                                including 30% off your first shipment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Question Section End-->
+
+            <section id="plan" class="container plan-section">
+                <h5>How it works</h5>
+                <div class="line-container">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="steps-section">
+                    <div class="step">
+                        <div class="step-number">01</div>
+                        <h2>Pick your coffee</h2>
+                        <p>
+                            Select from our evolving range of artisan coffees.
+                            Our beans are ethically sourced and we pay fair
+                            prices for them. There are new coffees in all
+                            profiles every month for you to try out.
+                        </p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">02</div>
+                        <h2>Choose the frequency</h2>
+                        <p>
+                            Customize your order frequency, quantity, even your
+                            roast style and grind type. Pause, skip or cancel
+                            your subscription with no commitment through our
+                            online portal.
+                        </p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">03</div>
+                        <h2>Receive and enjoy!</h2>
+                        <p>
+                            We ship your package within 48 hours, freshly
+                            roasted. Sit back and enjoy award-winning
+                            world-class coffees curated to provide a distinct
+                            tasting experience.
+                        </p>
+                    </div>
+                </div>
+                <button class="btn">
+                    <a href="#">Create your plan</a>
+                </button>
+            </section>
         </main>
         <!--  
             Main Section End
         -->
+
+        <!-- Footer Section Start -->
+        <footer class="container footer-section">
+            <div class="footer">
+                <div class="first-section">
+                    <a href="index.html">
+                        <img src="./Imgs/footer-logo.svg" alt="Logo" />
+                    </a>
+                    <nav>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about-us">About us</a></li>
+                            <li><a href="#plan">Create your plan</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="icons">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Section End -->
     </body>
 </html>

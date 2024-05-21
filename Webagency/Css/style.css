@@ -1,6 +1,113 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 6.25rem;
+}
+
+/* Header Section Start */
+.header-section {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    margin-top: 2.5rem;
+}
+
+.navigation-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 3.625rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 3.75rem;
+}
+
+nav ul li a {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27.2px;
+    text-align: left;
+    text-decoration: none;
+    color: #333333;
+}
+
+button.btn {
+    border: none;
+    background-color: #FFA149;
+}
+
+button.btn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27.2px;
+    text-decoration: none;
+    padding: 0.625rem 2rem;
+    color: #fff;
+}
+
+/* Header Section End */
+
+/*  
+  * Mian Section Start
+*/
+
+/* home section start */
+.home-section {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    padding-top: 87px;
+    padding-bottom: 6.25rem;
+}
+
+.home-infomation {
+    border: 1px solid red;
+}
+
+.home-infomation h1 {
+    width: 459px;
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 4.725rem;
+}
+
+.home-infomation p {
+    width: 409px;
+    margin-top: 1.25rem;
+    margin-bottom: 2.25rem;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+}
+
+/* home section end */
+
+/*  
+  * Mian Section End
+*/

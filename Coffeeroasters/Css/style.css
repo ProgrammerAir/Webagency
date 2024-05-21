@@ -70,7 +70,6 @@ nav ul li a:active {
 /* Home Section Start */
 .home-section {
     padding: 117px 85px 116px;
-    border: 1px solid red;
     border-radius: 15px;
     background: url(../Imgs/home-img.svg) center/cover no-repeat;
 }
@@ -130,21 +129,15 @@ nav ul li a:active {
     width: 100%;
     height: 196px;
     background: url(../Imgs/background.svg) center/cover no-repeat;
-    border: 1px solid red;
     z-index: -1;
 }
 
 .collection-wrapper {
     position: relative;
-    top: -70px;
+    top: -65px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid red;
-}
-
-.collection-card {
-    border: 1px solid red;
 }
 
 .collection-card {
